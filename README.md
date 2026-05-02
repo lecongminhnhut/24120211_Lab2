@@ -53,7 +53,8 @@ pip install -r requirements.txt
 
 Backend được phát triển bằng framework **FastAPI**. Thực hiện các lệnh sau để khởi động:
 
-1.  **Khởi chạy Server**:
+### 1. **Khởi chạy Server**:
+
     ```bash
     python -m backend.app.main
     ```
@@ -61,7 +62,9 @@ Backend được phát triển bằng framework **FastAPI**. Thực hiện các 
     ```bash
     uvicorn backend.app.main:app --reload
     ```
-2.  **Thông tin truy cập**:
+
+### 2. **Thông tin truy cập**:
+
     - **API URL**: `http://127.0.0.1:8000`
     - **Swagger UI**: `http://127.0.0.1:8000/docs`
 
@@ -69,10 +72,12 @@ Backend được phát triển bằng framework **FastAPI**. Thực hiện các 
 
 Giao diện người dùng sử dụng HTML/CSS và JavaScript thuần.
 
-1.  **Sử dụng Live Server (Khuyến nghị)**:
+### 1. **Sử dụng Live Server (Khuyến nghị)**:
+
     - Mở toàn bộ thư mục dự án bằng VS Code.
     - Chuột phải vào file `frontend/index.html` và chọn **Open with Live Server**.
-2.  **Lưu ý quan trọng**: Đảm bảo Frontend chạy đúng port `5500` để khớp với khai báo `FRONTEND_URL` trong file `.env`.
+
+### 2. **Lưu ý quan trọng**: Đảm bảo Frontend chạy đúng port `5500` để khớp với khai báo `FRONTEND_URL` trong file `.env`.
 
 ## Quy định bảo mật
 
