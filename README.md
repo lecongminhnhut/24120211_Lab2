@@ -43,7 +43,9 @@ Yêu cầu Python 3.9+. Chạy lệnh sau tại thư mục gốc:
 pip install -r backend/requirements.txt
 ```
 
+```
 hoặc
+```
 
 ```bash
 pip install -r requirements.txt
@@ -58,7 +60,9 @@ Backend được phát triển bằng framework **FastAPI**. Thực hiện các 
     ```bash
     python -m backend.app.main
     ```
+    ```
     hoặc
+    ```
     ```bash
     uvicorn backend.app.main:app --reload
     ```
