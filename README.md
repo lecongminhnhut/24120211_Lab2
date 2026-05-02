@@ -2,7 +2,7 @@
 
 Hệ thống lưu trữ ghi chú và liên kết cá nhân (Cloud Box) tích hợp xác thực đa phương thức. Đây là đồ án thực hiện cho Lab 2 môn **Tư duy tính toán** - HCMUS.
 
-## 1. Thông tin sinh viên
+## Thông tin sinh viên
 
 | Mục             | Thông tin                        |
 | --------------- | -------------------------------- |
