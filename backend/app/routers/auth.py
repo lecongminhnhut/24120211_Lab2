@@ -15,7 +15,7 @@ router = APIRouter(prefix="/auth", tags=["auth"])
 auth_client = get_pyrebase_auth()
 init_firebase_admin()
 
-# Lấy cấu hình từ hệ thống thay vì streamlit
+# Lấy cấu hình từ hệ thống
 google_cfg = get_google_provider_config()
 GOOGLE_CLIENT_ID = google_cfg["client_id"]
 GOOGLE_CLIENT_SECRET = google_cfg["client_secret"]
