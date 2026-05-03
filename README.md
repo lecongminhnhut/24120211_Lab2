@@ -91,3 +91,7 @@ Giao diện người dùng sử dụng HTML/CSS và JavaScript thuần.
 - **Tuyệt đối không đưa lên repository**: file `.env`, `serviceAccountKey.json`, `config.js` và các thư mục cache (`__pycache__`, `.venv`).
 
 ## Video Demo Dự án
+
+https://github.com/user-attachments/assets/af2c4380-fbbb-4955-ae14-7589bc33ba65
+
+
